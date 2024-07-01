@@ -5,13 +5,6 @@ let msgcontainer= document.querySelector(".msg-container")
 let msg = document.querySelector("#msg")
 let turn0 = true;
 
-let arr = ["apple", "banana", "litchu"];
-//2d array
-let arr2 = [
-  ["apple", "litchu"],
-  ["potato", "mushroom"],
-  ["pants", "shirts"],
-];
 const winpatterns = [
   [0, 1, 2],
   [0, 3, 6],
